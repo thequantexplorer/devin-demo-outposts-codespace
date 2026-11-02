@@ -1,0 +1,11 @@
+{
+  "number": "INV-1003",
+  "date": "2026-10-19",
+  "customer": "Basecamp Coffee",
+  "discount_pct": 0,
+  "tax_rate_bp": 600,
+  "lines": [
+    { "sku": "MUG-ENM", "description": "Enamel mug", "qty": 10, "unit_cents": 899 },
+    { "sku": "PRS-TRV", "description": "Travel coffee press", "qty": 2, "unit_cents": 5400 }
+  ]
+}

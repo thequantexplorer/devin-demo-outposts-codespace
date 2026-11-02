@@ -1,0 +1,12 @@
+{
+  "number": "INV-1004",
+  "date": "2026-10-26",
+  "customer": "Summit Search & Rescue",
+  "discount_pct": 15,
+  "tax_rate_bp": 725,
+  "lines": [
+    { "sku": "RAD-2W", "description": "Two-way radio", "qty": 4, "unit_cents": 12999 },
+    { "sku": "BLK-EMR", "description": "Emergency blanket", "qty": 8, "unit_cents": 2275 },
+    { "sku": "KIT-MED", "description": "Field medical kit", "qty": 1, "unit_cents": 34500 }
+  ]
+}

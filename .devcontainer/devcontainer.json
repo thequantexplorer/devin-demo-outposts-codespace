@@ -1,0 +1,19 @@
+{
+  "name": "Devin Outpost worker",
+  "image": "mcr.microsoft.com/devcontainers/python:1-3.12-bookworm",
+  "remoteEnv": {
+    "PATH": "${containerEnv:PATH}:/home/vscode/.local/bin"
+  },
+  "postCreateCommand": "bash .devcontainer/setup.sh",
+  "secrets": {
+    "DEVIN_OUTPOSTS_TOKEN": {
+      "description": "The Outpost token Devin showed you when you created the outpost under Settings > Environment > Outposts.",
+      "documentationUrl": "https://docs.devin.ai/cloud/outposts/quickstart"
+    }
+  },
+  "customizations": {
+    "codespaces": {
+      "openFiles": ["DEVIN_DEMO.md"]
+    }
+  }
+}

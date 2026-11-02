@@ -1,0 +1,12 @@
+{
+  "number": "INV-1002",
+  "date": "2026-10-12",
+  "customer": "Ridgeline Outfitters",
+  "discount_pct": 10,
+  "tax_rate_bp": 825,
+  "lines": [
+    { "sku": "PCK-65L", "description": "65 L expedition pack", "qty": 1, "unit_cents": 42900 },
+    { "sku": "FLT-SQZ", "description": "Squeeze water filter", "qty": 3, "unit_cents": 3995 },
+    { "sku": "MAP-TOP", "description": "Waterproof topo map", "qty": 6, "unit_cents": 1250 }
+  ]
+}
